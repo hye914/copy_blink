@@ -46,7 +46,7 @@ function App() {
         {/* <Route index element={<Signup />}></Route> */}
         {/* <Route index element={<ExpertSignup />}></Route> */}
         {/* #4 변호사 페이지 렌더링 코드 */}
-        <Route index element={<ExpertList />}>
+        <Route index element element={<ExpertList />}>
           <Route
             path="detail/:Id"
             element={<ExpertDetail CardData={CardData} />}
