@@ -11,11 +11,8 @@ export const Close = styled.p`
 `;
 
 export const Container = styled.div`
-  margin-left: ${(props) => (props.selectedCardData !== null ? "" : "200px")};
-  width: ${(props) =>
-    props.selectedCardData !== null
-      ? "calc(100vw - 720px)"
-      : "calc(100vw - 220px)"};
+  margin-left: 100px;
+  width: calc(100vw - 220px);
   flex-wrap: wrap;
 `;
 
