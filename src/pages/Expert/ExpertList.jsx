@@ -12,7 +12,7 @@ import {
   Wrapping,
   Upper,
 } from "./style";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { CardData } from "../Expert/ExpertData";
 import { Link, Outlet } from "react-router-dom";
 
